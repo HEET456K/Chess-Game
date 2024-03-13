@@ -634,7 +634,6 @@ function whiteKnightClick(square) {
   });
 
   let captureIds = [];
-  reIds = checkSquareCaptureId(captureIds);
 
   highlightSquareIds.forEach((element) => {
     checkPieceOfOpponentOnElement(element, "white");
@@ -683,7 +682,6 @@ function blackKnightClick(square) {
   });
 
   let captureIds = [];
-  ureIds = checkSquareCaptureId(captureIds);
 
   highlightSquareIds.forEach((element) => {
     checkPieceOfOpponentOnElement(element, "black");
